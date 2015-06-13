@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="Program.xslt"?>
+<!DOCTYPE TvProgram[
+  <!ELEMENT TvProgram (Channels)>
+  <!ELEMENT Channels (Channel+)>
+  <!ELEMENT Channel (Days)>
+  <!ELEMENT Days (Day+)>
+  <!ELEMENT Day (Shows)>
+  <!ELEMENT Shows (Show+)>
+  <!ELEMENT Show (#PCDATA)>  
+  <!ATTLIST Channel Name CDATA "REQUIRED">
+  <!ATTLIST Day day CDATA "REQUIRED">
+  <!ATTLIST Show StartsAt CDATA "REQUIRED">
+  <!ATTLIST Show Title CDATA "REQUIRED">
+  <!ATTLIST Show Format CDATA "REQUIRED">  
+]>
+<TvProgram>
+  <Channels>
+    <Channel Name="BTV">
+      <Days>
+        <Day day="Monday">
+          <Shows>
+            <Show StartsAt="01:30" Title="Извънземно нашествие" Format="Tрилър,Ужаси, САЩ, 2008г., Режисьор: Бен Рок, Актьори: Карлос Бернард, Матю Патрик, Рокмън Дънбар"/>
+            <Show StartsAt="03:00" Title="Домашен арест" Format="ситком, с. 3, еп.15"/>
+            <Show StartsAt="03:30" Title="Трета смяна" Format="сериал, с. 4, еп. 19"/>
+            <Show StartsAt="04:20" Title="120 минути" Format="публицистично предаване с водещ Светослав Иванов"/>
+            <Show StartsAt="06:00" Title="Лице в лице" Format="публицистично предаване с водещ Цветанка Ризова"/>
+            <Show StartsAt="06:30" Title="Тази сутрин" Format="информационно предаване с водещи Антон Хекимян и Биляна Гавазова"/>
+            <Show StartsAt="09:30" Title="Преди Обед" Format="токшоу с водещи Десислава Стоянова и Александър Кадиев"/>
+            <Show StartsAt="12:00" Title="bTV новините" Format="обедна емисия"/>
+            <Show StartsAt="12:30" Title="Шоуто на Слави" Format="/п./- вечерно токшоу"/>
+            <Show StartsAt="13:30" Title="Тайните на времето" Format="Сериал"/>
+            <Show StartsAt="15:30" Title="Светлината на моя живот" Format="Сериал"/>
+            <Show StartsAt="17:00" Title="bTV новините" Format="Емисия"/>
+            <Show StartsAt="17:30" Title="Лице в лице" Format="публицистично предаване с водещ Цветанка Ризова"/>
+            <Show StartsAt="18:00" Title="Бинго милиони" Format="Телевизионна лотария"/>
+            <Show StartsAt="18:05" Title="Опасни улици" Format="Сериал"/>
+            <Show StartsAt="19:00" Title="bTV новините" Format="Централна емисия"/>
+            <Show StartsAt="20:00" Title="Милост" Format="Сериал"/>
+            <Show StartsAt="21:30" Title="Истински истории" Format="Реалити сериал"/>
+            <Show StartsAt="22:30" Title="Шоуто на Слави" Format="Вечерно токшоу"/>
+            <Show StartsAt="23:30" Title="bTV новините" Format="Късна емисия"/>
+          </Shows>
+        </Day>
+        <Day day="Tuesday">
+          <Shows>
+            <Show StartsAt="00:00" Title="Под наблюдение" Format="сериал, с. 2, еп. 20"/>
+            <Show StartsAt="01:00" Title="Али Макбийл" Format="сериал, с.3, еп. 15"/>
+            <Show StartsAt="02:00" Title="Преди обед" Format="/п./- токшоу с водещи Десислава Стоянова и Александър Кадиев"/>
+            <Show StartsAt="04:00" Title="bTV новините" Format="Емисия /п./"/>
+            <Show StartsAt="04:30" Title="Светлината на моя живот" Format="Сериал /п./"/>
+            <Show StartsAt="06:00" Title="Лице в лице" Format="/п./- публицистично предаване с водещ Цветанка Ризова"/>
+            <Show StartsAt="06:30" Title="Тази сутрин" Format="информационно предаване с водещи Антон Хекимян и Биляна Гавазова"/>
+            <Show StartsAt="09:30" Title="Преди обед" Format="токшоу с водещи Десислава Стоянова и Александър Кадиев"/>
+            <Show StartsAt="12:00" Title="bTV новините" Format="обедна емисия"/>
+            <Show StartsAt="12:30" Title="Шоуто на Слави" Format="Вечерно токшоу /п./"/>
+            <Show StartsAt="13:30" Title="Тайните на времето" Format="Сериал"/>
+            <Show StartsAt="15:30" Title="Светлината на моя живот" Format="Сериал"/>
+            <Show StartsAt="17:00" Title="bTV новините" Format="Емисия"/>
+            <Show StartsAt="17:30" Title="Лице в лице" Format="публицистично предаване с водещ Цветанка Ризова"/>
+            <Show StartsAt="18:00" Title="Бинго милиони" Format="Телевизионна лотария"/>
+            <Show StartsAt="18:05" Title="Опасни улици" Format="Сериал"/>
+            <Show StartsAt="19:00" Title="bTV новините" Format="Емисия"/>
+            <Show StartsAt="20:00" Title="Милост" Format="Сериал еп.49"/>
+            <Show StartsAt="21:30" Title="Истински истории" Format="Реалити сериал"/>
+            <Show StartsAt="22:30" Title="Шоуто на Слави" Format="Вечерно токшоу"/>
+            <Show StartsAt="23:30" Title="bTV новините" Format="Късна емисия"/>
+          </Shows>
+        </Day>
+        <Day day="Wednesday">
+          <Shows>
+            <Show StartsAt="00:00" Title="Под наблюдение" Format="сериал, с. 2, еп.21"/>
+            <Show StartsAt="01:00" Title="Али Макбийл" Format="сериал, с. 3, еп.16"/>
+            <Show StartsAt="02:00" Title="Преди обед" Format="/п./ - токшоу с водещи Десислава Стоянова и Александър Кадиев"/>
+            <Show StartsAt="04:00" Title="bTV новините" Format="Емисия /п./"/>
+            <Show StartsAt="04:30" Title="Светлината на моя живот" Format="Сериал /п./"/>
+            <Show StartsAt="06:00" Title="Лице в лице" Format="публицистично предаване с водещ Цветанка Ризова"/>
+            <Show StartsAt="06:30" Title="Тази сутрин" Format="информационно предаване с водещи Антон Хекимян и Биляна Гавазова"/>
+            <Show StartsAt="09:30" Title="Преди обед" Format="токшоу с водещи Десислава Стоянова и Александър Кадиев"/>
+            <Show StartsAt="12:00" Title="bTV новините" Format="обедна емисия"/>
+            <Show StartsAt="12:30" Title="Шоуто на Слави" Format="Вечерно токшоу /п./"/>
+            <Show StartsAt="13:30" Title="Тайните на времето" Format="Сериал"/>
+            <Show StartsAt="15:30" Title="Светлината на моя живот" Format="Сериал"/>
+            <Show StartsAt="17:00" Title="bTV новините" Format="Емисия"/>
+            <Show StartsAt="17:30" Title="Лице в лице" Format="публицистично предаване с водещ Цветанка Ризова"/>
+            <Show StartsAt="18:00" Title="Бинго милиони" Format="Телевизионна лотария"/>
+            <Show StartsAt="18:05" Title="Опасни улици" Format="Сериал"/>
+            <Show StartsAt="19:00" Title="bTV новините" Format="Емисия"/>
+            <Show StartsAt="20:00" Title="Милост" Format="сериал, еп.50"/>
+            <Show StartsAt="21:30" Title="Бялата кралица" Format="Сериал, еп.10"/>
+            <Show StartsAt="22:30" Title="Шоуто на Слави" Format="Вечерно токшоу"/>
+            <Show StartsAt="23:30" Title="bTV новините" Format="Късна емисия"/>
+          </Shows>
+        </Day>
+        <Day day="Thursday">
+          <Shows>
+            <Show StartsAt="00:00" Title="Под наблюдение" Format="сериал, с. 2, еп.17"/>
+            <Show StartsAt="01:00" Title="Али Макбийл" Format="сериал, с. 3, еп.12"/>
+            <Show StartsAt="02:00" Title="Преди обед" Format="/п./ - токшоу с водещи Десислава Стоянова и Александър Кадиев"/>
+            <Show StartsAt="04:00" Title="bTV новините" Format="Емисия /п./"/>
+            <Show StartsAt="04:30" Title="Светлината на моя живот" Format="Сериал /п./"/>
+            <Show StartsAt="06:00" Title="Лице в лице" Format="публицистично предаване с водещ Цветанка Ризова"/>
+            <Show StartsAt="06:30" Title="Тази сутрин" Format="информационно предаване с водещи Антон Хекимян и Биляна Гавазова"/>
+            <Show StartsAt="09:30" Title="Преди обед" Format="токшоу с водещи Десислава Стоянова и Александър Кадиев"/>
+            <Show StartsAt="12:00" Title="bTV новините" Format="обедна емисия"/>
+            <Show StartsAt="12:30" Title="Шоуто на Слави" Format="Вечерно токшоу /п./"/>
+            <Show StartsAt="13:30" Title="Тайните на времето" Format="Сериал"/>
+            <Show StartsAt="15:30" Title="Светлината на моя живот" Format="Сериал"/>
+            <Show StartsAt="17:00" Title="bTV новините" Format="Емисия"/>
+            <Show StartsAt="17:30" Title="Лице в лице" Format="публицистично предаване с водещ Цветанка Ризова"/>
+            <Show StartsAt="18:00" Title="Опасни улици" Format="Сериал"/>
+            <Show StartsAt="19:00" Title="bTV новините" Format="Емисия"/>
+            <Show StartsAt="20:00" Title="Милост" Format="сериал, еп.46"/>
+            <Show StartsAt="21:30" Title="Бялата кралица" Format="Сериал, еп.8"/>
+            <Show StartsAt="22:30" Title="Шоуто на Слави" Format="Вечерно токшоу"/>
+            <Show StartsAt="23:30" Title="bTV новините" Format="Късна емисия"/>
+          </Shows>
+        </Day>
+        <Day day="Friday">
+          <Shows>
+            <Show StartsAt="00:00" Title="Под наблюдение" Format="сериал, с. 2, еп.18"/>
+            <Show StartsAt="01:00" Title="Али Макбийл" Format="сериал, с. 3, еп.13"/>
+            <Show StartsAt="02:00" Title="Преди обед" Format="/п./ - токшоу с водещи Десислава Стоянова и Александър Кадиев"/>
+            <Show StartsAt="04:00" Title="bTV новините" Format="Емисия /п./"/>
+            <Show StartsAt="04:30" Title="Светлината на моя живот" Format="Сериал /п./"/>
+            <Show StartsAt="06:00" Title="Лице в лице" Format="публицистично предаване с водещ Цветанка Ризова"/>
+            <Show StartsAt="06:30" Title="Тази сутрин" Format="информационно предаване с водещи Антон Хекимян и Биляна Гавазова"/>
+            <Show StartsAt="09:30" Title="Преди обед" Format="токшоу с водещи Десислава Стоянова и Александър Кадиев"/>
+            <Show StartsAt="12:00" Title="bTV новините" Format="обедна емисия"/>
+            <Show StartsAt="12:30" Title="Шоуто на Слави" Format="Вечерно токшоу /п./"/>
+            <Show StartsAt="13:30" Title="Тайните на времето" Format="Сериал"/>
+            <Show StartsAt="15:30" Title="Светлината на моя живот" Format="Сериал"/>
+            <Show StartsAt="17:00" Title="bTV новините" Format="Емисия"/>
+            <Show StartsAt="17:30" Title="Лице в лице" Format="публицистично предаване с водещ Цветанка Ризова"/>
+            <Show StartsAt="18:00" Title="Опасни улици" Format="Сериал"/>
+            <Show StartsAt="19:00" Title="bTV новините" Format="Емисия"/>
+            <Show StartsAt="20:00" Title="Милост" Format="сериал, еп.47"/>
+            <Show StartsAt="21:30" Title="Бялата кралица" Format="Сериал, еп.9"/>
+            <Show StartsAt="22:30" Title="Шоуто на Слави" Format="Вечерно токшоу"/>
+            <Show StartsAt="23:30" Title="bTV новините" Format="Късна емисия"/>
+          </Shows>
+        </Day>
+        <Day day="Saturday">
+          <Shows>
+            <Show StartsAt="00:00" Title="Под наблюдение" Format="сериал, с. 2, еп.19"/>
+            <Show StartsAt="01:00" Title="Али Макбийл" Format="сериал, с. 3, еп.14"/>
+            <Show StartsAt="02:00" Title="Преди обед" Format="/п./ - токшоу с водещи Десислава Стоянова и Александър Кадиев"/>
+            <Show StartsAt="04:00" Title="Светлината на моя живот" Format="Сериал /п./"/>
+            <Show StartsAt="05:30" Title="Младежка лига: Нашествие" Format="детски сериал"/>
+            <Show StartsAt="06:00" Title="Младежка лига: Нашествие" Format="детски сериал"/>
+            <Show StartsAt="06:30" Title="Агрофорум" Format="предаване"/>
+            <Show StartsAt="07:00" Title="Трета смяна" Format="сериал, с. 4, еп. 18"/>
+            <Show StartsAt="08:00" Title="Тази събота" Format="актуално предаване с Мариана Векилска, Жени Марчева и Диана Любенова"/>
+            <Show StartsAt="11:00" Title="Cool...T" Format="лайфстайл предаване с водещ Петя Дикова"/>
+            <Show StartsAt="12:00" Title="bTV Новините" Format="Обедна емисия"/>
+            <Show StartsAt="12:30" Title="Домашен арест" Format="ситком, с. 3, еп. 14"/>
+            <Show StartsAt="13:00" Title="Градска жега" Format="Екшън, Комедия, Криминален, САЩ, 1984г., Режисьор: Ричард Бенджамин, Актьори: Клинт Истууд, Рип Торн, Маделин Кан, Бърт Рейнолдс, Джейн Александър, Тони Ло Бианко"/>
+            <Show StartsAt="15:00" Title="Египет 3D" Format="документален филм"/>
+            <Show StartsAt="16:20" Title="Треска за шоу" Format="Драма,Екшън,Криминален, САЩ, 2000 г., Режисьор: Робърт Адетуй, Актьори: Джейсън Статън, Вонди Къртис, Тамала Джоунс, Крис Месина"/>
+            <Show StartsAt="18:30" Title="Бинго милиони" Format="телевизионна лотария"/>
+            <Show StartsAt="19:00" Title="bTV Новините" Format="централна емисия"/>
+            <Show StartsAt="19:30" Title="bTV Репортерите" Format="предаване за журналистически разследвания и филми"/>
+            <Show StartsAt="20:00" Title="Благотворителен концерт на bTV и UNICEF" Format="телетон"/>
+            <Show StartsAt="22:20" Title="Комиците" Format="комедийно шоу"/>
+            <Show StartsAt="23:00" Title="В любов и война" Format="Драма, Романтичен, Италия, Великобритания, 1996 г., Режисьор: Ричард Атънбъро, Актьори: Крис О'Донъл, Сандра Бълок, Макензи Остин, Емилио Бонучи"/>
+          </Shows>
+        </Day>
+        <Day day="Sunday">
+          <Shows>
+            <Show StartsAt="01:20" Title="Сираче" Format="Драма, Ужаси, Трилър, САЩ, 2009 г., Режисьор: Жауме Колет-Сера, Актьори: Изабела Фурман, Вера Фармига, Джими Бенет, Питър Сарсгаард"/>
+            <Show StartsAt="03:30" Title="Домашен арест" Format="ситком, с. 3, еп.14 /п./"/>
+            <Show StartsAt="04:00" Title="Трета смяна" Format="/п./ - сериал, с.4, еп.18"/>
+            <Show StartsAt="05:00" Title="Комиците" Format="/п./ - комедийно шоу"/>
+            <Show StartsAt="06:00" Title="Таз-мания" Format="анимационен сериал"/>
+            <Show StartsAt="07:00" Title="Трета смяна" Format="сериал, с. 4, еп. 19"/>
+            <Show StartsAt="08:00" Title="Тази неделя" Format="актуално предаване с Мариана Векилска, Жени Марчева и Диана Любенова"/>
+            <Show StartsAt="11:00" Title="Търси се..." Format="токшоу с водещи Меги и Нели"/>
+            <Show StartsAt="12:00" Title="bTV Новините" Format="Обедна емисия"/>
+            <Show StartsAt="12:30" Title="Домашен арест" Format="ситком, с. 3, еп. 14"/>
+            <Show StartsAt="13:00" Title="Тайният живот на пчелите" Format="Драма, Приключенски, САЩ, 2008 г., Режисьор: Джина Принс-Байтууд, Актьори: Дакота Фанинг, Куин Латифа, Пол Бетани, Хелари Бъртън"/>
+            <Show StartsAt="15:10" Title="Джулиан По" Format="Драма, приключенски, САЩ, 1997 г., Режисьор: Джина Принс-Байтууд, Актьори: Дакота Фанинг, Куин Латифа, Пол Бетани, Хелари Бъртън"/>
+            <Show StartsAt="17:00" Title="120 минути" Format="публицистично предаване с водещ Светослав Иванов"/>
+            <Show StartsAt="19:00" Title="bTV Новините" Format="централна емисия"/>
+            <Show StartsAt="19:30" Title="bTV Репортерите" Format="предаване за журналистически разследвания и филми"/>
+            <Show StartsAt="20:00" Title="Отново на 17" Format="Комедия, САЩ, 2009 г., Режисьор: Бър Стиърс, Актьори: Джим Гафиган, Зак Ефрон, Лесли Ман, Матю Пери, Томас Ленън, Тайлър Стилман, Алисън Милър, Мишел Трахтенбърг, Мелора Хардин, Стър..."/>
+            <Show StartsAt="22:00" Title="Папараци" Format="новините от шоубизнеса с водещ Николета Лозанова"/>
+            <Show StartsAt="23:00" Title="Къщата на моя живот" Format="Драма, Комедия, САЩ, 2001 г., Режисьор: Ъруин Уинклър , Актьори: Джена Малоун, Мери Стийнбъргън, Кевин Клайн, Кристин Скот Томас, Хейдън Кристенсен"/>            
+          </Shows>
+        </Day>
+      </Days>     
+    </Channel>
+    <Channel Name="NOVA">
+      <Days>
+        <Day day="Monday">
+          <Shows>
+            <Show StartsAt="00:45" Title="НАЦИОНАЛНА ЛОТАРИЯ" Format="/п./"/>
+            <Show StartsAt="01:15" Title="Клауд найн" Format="с уч. на Джефри Нордлинг, Дав Камерън, Люк Бенуард, Майк К. Манинг, Киърси Клемънс, Карлън Джефри, Тейтъм Чиники и др./п/"/>
+            <Show StartsAt="02:50" Title="Кънки с остър връх 4: Огън и лед" Format="с уч. на Брендън Фер, Франсиа Райса, Стивън Еймъл, Марсела Писаро и др./п/"/>
+            <Show StartsAt="05:15" Title="Часът на Милен Цветков" Format="предаване на НТВ /п/"/>
+            <Show StartsAt="06:20" Title="Здравей, България" Format="сутрешен блок на НТВ"/>
+            <Show StartsAt="09:30" Title="На кафе" Format="Предаване на НТВ"/>
+            <Show StartsAt="11:30" Title="Бон Апети" Format="предаване на НТВ"/>
+            <Show StartsAt="12:00" Title="Новините на Нова" Format="Емисия"/>            
+            <Show StartsAt="12:30" Title="Огнено сърце" Format="Сериен филм"/>
+            <Show StartsAt="13:30" Title="Моята карма" Format="Сериен филм"/>
+            <Show StartsAt="14:30" Title="Надежда за обич" Format="Сериен филм"/>
+            <Show StartsAt="16:00" Title="Новините на Нова" Format="Емисия"/>
+            <Show StartsAt="16:30" Title="Малката булка" Format="Сериен филм"/>
+            <Show StartsAt="18:00" Title="Сделка или не" Format="Телевизионна игра"/>
+            <Show StartsAt="19:00" Title="Новините на Нова" Format="Централна Емисия"/>
+            <Show StartsAt="20:00" Title="X Factor" Format="Музикално шоу, на живо"/>
+            <Show StartsAt="22:00" Title="Господари на ефира" Format="Забавно предаване"/>
+            <Show StartsAt="22:30" Title="Тайнствени афери" Format="Сериен филм, 3 сезон"/>
+            <Show StartsAt="23:30" Title="Новините на Нова" Format="Късна емисия"/>
+          </Shows>
+        </Day>
+        <Day day="Tuesday">
+          <Shows>
+            <Show StartsAt="00:00" Title="Часът на Милен Цветков" Format="Предаване на НТВ"/>
+            <Show StartsAt="01:00" Title="Разобличаване" Format="Сериен филм, 7 сезон"/>
+            <Show StartsAt="02:00" Title="На кафе" Format="Предаване на НТВ /п./"/>
+            <Show StartsAt="03:30" Title="Ангелският остров" Format="Сериен филм"/>
+            <Show StartsAt="04:30" Title="Готова на всичко" Format="Сериен филм"/>
+            <Show StartsAt="05:15" Title="Часът на Милен Цветков" Format="Предаване на НТВ /п./"/>
+            <Show StartsAt="06:20" Title="Здравей, България" Format="Сутрешен блок на НТВ"/>
+            <Show StartsAt="09:30" Title="На кафе" Format="Предаване на НТВ"/>
+            <Show StartsAt="11:30" Title="Бон Апети" Format="Предаване на НТВ"/>
+            <Show StartsAt="12:00" Title="Новините на Нова" Format="Емисия"/>
+            <Show StartsAt="12:30" Title="Огнено сърце" Format="Сериен филм"/>
+            <Show StartsAt="13:30" Title="Моята карма" Format="Сериен филм"/>
+            <Show StartsAt="14:30" Title="Надежда за обич" Format="Сериен филм"/>
+            <Show StartsAt="16:00" Title="Новините на Нова" Format="Емисия"/>
+            <Show StartsAt="16:30" Title="Малката булка" Format="Сериен филм"/>
+            <Show StartsAt="18:00" Title="Сделка или не" Format="Телевизионна игра"/>
+            <Show StartsAt="19:00" Title="Новините на Нова" Format="Централна емисия"/>
+            <Show StartsAt="20:00" Title="Подли камериерки" Format="Сериен филм"/>
+            <Show StartsAt="21:00" Title="X Factor" Format="Музикално шоу, на живо"/>
+            <Show StartsAt="22:00" Title="Господари на ефира" Format="Забавно предаване"/>
+            <Show StartsAt="22:30" Title="Тайнствени афери" Format="Сериен филм, 3 сезон"/>
+            <Show StartsAt="23:30" Title="Новините на Нова" Format="Късна емисия"/>
+          </Shows>
+        </Day>
+        <Day day="Wednesday">
+          <Shows>
+            <Show StartsAt="00:00" Title="Часът на Милен Цветков" Format="Предаване на НТВ"/>
+            <Show StartsAt="01:00" Title="Разобличаване" Format="Сериен филм, 7 сезон"/>
+            <Show StartsAt="02:00" Title="На кафе" Format="Предаване на НТВ /п./"/>
+            <Show StartsAt="03:30" Title="Ангелският остров" Format="Сериен филм"/>
+            <Show StartsAt="04:30" Title="Готова на всичко" Format="Сериен филм"/>
+            <Show StartsAt="05:15" Title="Часът на Милен Цветков" Format="Предаване на НТВ /п./"/>
+            <Show StartsAt="06:20" Title="Здравей, България" Format="Сутрешен блок на НТВ"/>
+            <Show StartsAt="09:30" Title="На кафе" Format="Предаване на НТВ"/>
+            <Show StartsAt="11:30" Title="Бон Апети" Format="Предаване на НТВ"/>
+            <Show StartsAt="12:00" Title="Новините на Нова" Format="Емисия"/>
+            <Show StartsAt="12:30" Title="Огнено сърце" Format="Сериен филм"/>
+            <Show StartsAt="13:30" Title="Моята карма" Format="Сериен филм"/>
+            <Show StartsAt="14:30" Title="Надежда за обич" Format="Сериен филм"/>
+            <Show StartsAt="16:00" Title="Новините на Нова" Format="Емисия"/>
+            <Show StartsAt="16:30" Title="Малката булка" Format="Сериен филм"/>
+            <Show StartsAt="18:00" Title="Сделка или не" Format="Телевизионна игра"/>
+            <Show StartsAt="19:00" Title="Новините на Нова" Format="Централна емисия"/>
+            <Show StartsAt="20:00" Title="Подли камериерки" Format="Сериен филм"/>
+            <Show StartsAt="21:00" Title="Елементарно Уотсън" Format="Сериен филм"/>
+            <Show StartsAt="22:00" Title="Господари на ефира" Format="Забавно предаване"/>
+            <Show StartsAt="22:30" Title="Скандал" Format="Сериен филм"/>
+            <Show StartsAt="23:30" Title="Новините на Нова" Format="Късна емисия"/>
+          </Shows>
+        </Day>
+        <Day day="Thursday">
+          <Shows>
+            <Show StartsAt="00:00" Title="Часът на Милен Цветков" Format="Предаване на НТВ"/>
+            <Show StartsAt="01:00" Title="Будни цяла нощ" Format="Сериен филм"/>
+            <Show StartsAt="02:00" Title="На кафе" Format="Предаване на НТВ /п./"/>
+            <Show StartsAt="03:30" Title="Ангелският остров" Format="Сериен филм"/>
+            <Show StartsAt="04:30" Title="Долината на слънцето" Format="Сериен филм"/>
+            <Show StartsAt="05:15" Title="Часът на Милен Цветков" Format="Предаване на НТВ /п./"/>
+            <Show StartsAt="06:20" Title="Здравей, България" Format="Сутрешен блок на НТВ"/>
+            <Show StartsAt="09:30" Title="На кафе" Format="Предаване на НТВ"/>
+            <Show StartsAt="11:30" Title="Бон Апети" Format="Предаване на НТВ"/>
+            <Show StartsAt="12:00" Title="Новините на Нова" Format="Емисия"/>
+            <Show StartsAt="12:30" Title="Огнено сърце" Format="Сериен филм"/>
+            <Show StartsAt="13:30" Title="Моята карма" Format="Сериен филм"/>
+            <Show StartsAt="14:30" Title="Момичето, което обичах" Format="Сериен филм"/>
+            <Show StartsAt="16:00" Title="Новините на Нова" Format="Емисия"/>
+            <Show StartsAt="16:30" Title="Малката булка" Format="Сериен филм"/>
+            <Show StartsAt="18:00" Title="Сделка или не" Format="Телевизионна игра"/>
+            <Show StartsAt="19:00" Title="Новините на Нова" Format="Централна емисия"/>
+            <Show StartsAt="20:00" Title="Подли камериерки" Format="Сериен филм"/>
+            <Show StartsAt="21:00" Title="Специално разузнаване" Format="Сериен филм"/>
+            <Show StartsAt="22:00" Title="Господари на ефира" Format="Забавно предаване"/>
+            <Show StartsAt="22:30" Title="Тайнствени афери" Format="Сериен филм, сезон 3"/>
+            <Show StartsAt="23:30" Title="Новините на Нова" Format="Късна емисия"/>
+          </Shows>
+        </Day>
+        <Day day="Friday">
+          <Shows>
+            <Show StartsAt="00:00" Title="Часът на Милен Цветков" Format="Предаване на НТВ"/>
+            <Show StartsAt="01:00" Title="Будни цяла нощ" Format="Сериен филм"/>
+            <Show StartsAt="02:00" Title="На кафе" Format="Предаване на НТВ /п./"/>
+            <Show StartsAt="03:30" Title="Ангелският остров" Format="Сериен филм"/>
+            <Show StartsAt="04:30" Title="Готова на всичко" Format="Сериен филм"/>
+            <Show StartsAt="05:15" Title="Часът на Милен Цветков" Format="Предаване на НТВ /п./"/>
+            <Show StartsAt="06:20" Title="Здравей, България" Format="Сутрешен блок на НТВ"/>
+            <Show StartsAt="09:30" Title="На кафе" Format="Предаване на НТВ"/>
+            <Show StartsAt="11:30" Title="Бон Апети" Format="Предаване на НТВ"/>
+            <Show StartsAt="12:00" Title="Новините на Нова" Format="Емисия"/>
+            <Show StartsAt="12:30" Title="Огнено сърце" Format="Сериен филм"/>
+            <Show StartsAt="13:30" Title="Моята карма" Format="Сериен филм"/>
+            <Show StartsAt="14:30" Title="Момичето, което обичах" Format="Сериен филм"/>
+            <Show StartsAt="16:00" Title="Новините на Нова" Format="Емисия"/>
+            <Show StartsAt="16:30" Title="Малката булка" Format="Сериен филм"/>
+            <Show StartsAt="18:00" Title="Сделка или не" Format="Телевизионна игра"/>
+            <Show StartsAt="19:00" Title="Новините на Нова" Format="Централна емисия"/>
+            <Show StartsAt="20:00" Title="Подли камериерки" Format="Сериен филм"/>
+            <Show StartsAt="21:00" Title="Специално разузнаване" Format="Сериен филм"/>
+            <Show StartsAt="22:00" Title="Господари на ефира" Format="Забавно предаване"/>
+            <Show StartsAt="22:30" Title="Тайнствени афери" Format="Сериен филм, сезон 3"/>
+            <Show StartsAt="23:30" Title="Новините на Нова" Format="Късна емисия"/>
+          </Shows>
+        </Day>
+        <Day day="Saturday">
+          <Shows>
+            <Show StartsAt="00:00" Title="Часът на Милен Цветков" Format="Предаване на НТВ"/>
+            <Show StartsAt="01:00" Title="Будни цяла нощ" Format="Сериен филм"/>
+            <Show StartsAt="02:00" Title="На кафе" Format="Предаване на НТВ /п./"/>
+            <Show StartsAt="03:30" Title="Ангелският остров" Format="Сериен филм"/>
+            <Show StartsAt="04:30" Title="Готова на всичко" Format="Сериен филм"/>
+            <Show StartsAt="06:30" Title="Виолета" Format="Сериен филм"/>
+            <Show StartsAt="07:30" Title="Събуди се..." Format="предаване на НТВ"/>
+            <Show StartsAt="10:00" Title="На светло" Format="с Люба Кулезич"/>
+            <Show StartsAt="11:00" Title="Съдебен спор" Format="Предаване на НТВ"/>
+            <Show StartsAt="12:00" Title="Новините на Нова" Format="Емисия"/>
+            <Show StartsAt="12:30" Title="Темата на Нова" Format=""/>
+            <Show StartsAt="13:00" Title="Мери и Марта" Format="с уч. на с уч. на Хилари Суонк, Бренда Блетин, Сам Клафлин, Джеймс Уудс и др."/>
+            <Show StartsAt="14:50" Title="Дивата река" Format="с уч. на Дейвид Стратърн, Мерил Стрийп, Джон Райли, Кевин Бейкън, Бенджамин Брат, Джоузеф Мазело и др."/>
+            <Show StartsAt="17:00" Title="Съдби на кръстопът" Format="предаване на НТВ"/>
+            <Show StartsAt="18:00" Title="Ничия земя" Format="предаване на Нова телевизия"/>
+            <Show StartsAt="19:00" Title="Новините на Нова" Format="Централна емисия"/>
+            <Show StartsAt="19:30" Title="НАЦИОНАЛНА ЛОТАРИЯ" Format=""/>
+            <Show StartsAt="20:00" Title="Пак ли ти" Format="с уч. на Кристен Бел, Джейми Лий Къртис, Сигорни Уивър, Джеймс Уолк, Бети Уайт, Одет Юстман, Патрик Дъфи и др."/>
+            <Show StartsAt="22:10" Title="Очи от рая" Format="с уч. на Рейчъл Уайз, Марк Уолбърг, Сюзън Сарандън, Стенли Тучи, Сирша Ронан, Майкъл Империоли и др."/>            
+          </Shows>
+        </Day>
+        <Day day="Sunday">
+          <Shows>
+            <Show StartsAt="00:50" Title="Мери и Марта" Format="с уч. на с уч. на Хилари Суонк, Бренда Блетин, Сам Клафлин, Джеймс Уудс и др./п./"/>
+            <Show StartsAt="02:40" Title="Дивата река" Format="с уч. на Дейвид Стратърн, Мерил Стрийп, Джон Райли, Кевин Бейкън, Бенджамин Брат, Джоузеф Мазело и др./п./"/>
+            <Show StartsAt="06:00" Title="Иконостас" Format=""/>
+            <Show StartsAt="06:30" Title="Виолета" Format="Сериен филм"/>
+            <Show StartsAt="07:30" Title="Събуди се..." Format="предаване на НТВ"/>
+            <Show StartsAt="10:00" Title="На светло" Format="с Люба Кулезич"/>
+            <Show StartsAt="11:00" Title="Съдебен спор" Format="Предаване на НТВ"/>
+            <Show StartsAt="12:00" Title="Новините на Нова" Format="Емисия"/>
+            <Show StartsAt="12:30" Title="Клауд найн" Format="с уч. на Джефри Нордлинг, Дав Камерън, Люк Бенуард, Майк К. Манинг, Киърси Клемънс, Карлън Джефри, Тейтъм Чиники и др."/>
+            <Show StartsAt="14:15" Title="Кънки с остър връх 4: Огън и лед" Format="с уч. на Брендън Фер, Франсиа Райса, Стивън Еймъл, Марсела Писаро и др."/>
+            <Show StartsAt="16:00" Title="Дикoff" Format="публицистично предаване на НТВ"/>
+            <Show StartsAt="19:00" Title="Новините на Нова" Format="Централна емисия"/>
+            <Show StartsAt="19:30" Title="Разследване" Format=""/>
+            <Show StartsAt="20:00" Title="Шпионски игри" Format="с уч. на Стивън Дилейни, Катрин Маккормак, Робърт Редфорд, Брад Пит, Шарлот Рамплинг и др."/>
+            <Show StartsAt="22:30" Title="Пълководци" Format="с уч. на Джет Ли, Анди Лау, Такеши Канеширо и др."/>
+          </Shows>
+        </Day>
+      </Days>
+    </Channel>
+  </Channels>  
+</TvProgram>
